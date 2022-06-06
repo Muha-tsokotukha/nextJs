@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dotted black;
+  margin: 30px 100px;
+}
+
+.user-task {
+  text-align: left;
+}
+
+.user-task:hover {
+  color: rgba(255, 30, 0, 0.438);
+}
+
+.user:hover {
+  color: rgba(0, 0, 255, 0.699);
+}
