@@ -1,7 +1,7 @@
 import { GetServerSideProps, NextPage } from "next";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import { Task } from "../types";
+import { Task } from "../../store/types";
 
 type Prop = { tasks: Task[]; user: string };
 

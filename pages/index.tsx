@@ -1,7 +1,7 @@
 import { GetServerSideProps, NextPage } from "next";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import { User } from "./types";
+import { User } from "../store/types";
 
 type Prop = { users: User[] };
 

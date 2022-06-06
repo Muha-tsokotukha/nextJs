@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import { NextSeo } from "next-seo";
-import { User } from "../types";
+import { User } from "../../store/types";
 
 type Prop = { user: User };
 
